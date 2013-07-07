@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidDesignerProfile">
+    <option name="fullProfile">
+      <profile>
+        <option name="device" value="[None]" />
+        <option name="theme" value="Theme" />
+      </profile>
+    </option>
+    <option name="selection" value="[Full]" />
+  </component>
+  <component name="AndroidLayoutPreviewToolWindow">
+    <option name="state">
+      <GlobalState />
+    </option>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <target>android-17</target>
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/main.xml">
+        <config>
+          <device>Nexus S</device>
+          <theme>@style/Theme.Sherlock</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/newschannel_row.xml">
+        <config>
+          <device>Nexus One</device>
+          <theme>@style/Theme.Sherlock</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/webpageview.xml">
+        <config>
+          <device>Nexus One</device>
+          <state>Landscape</state>
+          <theme>@android:style/Theme</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="BODY" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31a7fa23-d1e3-4db0-be9c-e33896c41130" name="Default" comment="" />
+    <ignored path="NewsReader.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/AndroidManifest.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372702455193" ignored="false" />
+    <file path="/fragment.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372698380841" ignored="false" />
+    <file path="/main.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370875131992" ignored="false" />
+    <file path="/MyActivity.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372166934891" ignored="false" />
+    <file path="/RSSHandler.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371977625455" ignored="false" />
+    <file path="/RSSFeed.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370853398874" ignored="false" />
+    <file path="/RSSItem.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370874097436" ignored="false" />
+    <file path="/Dummy.txt" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372165842981" ignored="false" />
+    <file path="/newslayout.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370961324841" ignored="false" />
+    <file path="/list_selector.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370929502905" ignored="false" />
+    <file path="/listback.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370929324561" ignored="false" />
+    <file path="/listback_hover.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370929383335" ignored="false" />
+    <file path="/list-row.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370931076178" ignored="false" />
+    <file path="/ItemsArrayAdapter.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370952740129" ignored="false" />
+    <file path="/list_row.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372141141896" ignored="false" />
+    <file path="/webpageview.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370954834683" ignored="false" />
+    <file path="/WebPageActivity.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372178815634" ignored="false" />
+    <file path="/ListOfNewsChannels.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372496828985" ignored="false" />
+    <file path="/newschannellsit.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370957219758" ignored="false" />
+    <file path="/newschannel-row.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370957966505" ignored="false" />
+    <file path="/NewsFeedLink.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370958113593" ignored="false" />
+    <file path="/NewsChannelListAdapter.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1370959964640" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/expression/solver/sigma/ExpressionSolver.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028993617" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/expression/solver/sigma/FunctionSolver.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028949971" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/smapp/sigmacalculator/PlotGraph.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028951300" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/smapp/sigmacalculator/SplashScreen.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028951300" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/smapp/sigmacalculator/Main.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028951914" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/smapp/sigmacalculator/FunctionScreen.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953221" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/jjoe64/graphview/compatible/RealScaleGestureDetector.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953221" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/jjoe64/graphview/compatible/ScaleGestureDetector.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953222" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/jjoe64/graphview/GraphViewStyle.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953224" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/jjoe64/graphview/LineGraphView.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953224" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/jjoe64/graphview/ValueDependentColor.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953224" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/jjoe64/graphview/GraphViewDemo.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953224" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/jjoe64/graphview/GraphViewSeries.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953224" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/jjoe64/graphview/GraphView.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953944" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/src/com/jjoe64/graphview/BarGraphView.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953945" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/values/styles_smappstyle.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953945" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/menu/splash_screen.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028953945" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/layout-land/calclayout.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028954828" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/layout-land/functioncalc.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028954828" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/layout/functioncalc.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028955385" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/layout/plotdata.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028955385" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/layout/calclayout.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028956346" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/drawable/tab_indicator_ab_smappstyle.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028956346" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/layout/activity_splash_screen.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028956346" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/gen/com/smapp/sigmacalculator/R.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028956351" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/drawable/btn_cab_done_smappstyle.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028956350" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/drawable/pressed_background_smappstyle.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028956351" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/drawable/progress_horizontal_smappstyle.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028956351" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/drawable/selectable_background_smappstyle.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028956351" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/res/drawable/spinner_background_ab_smappstyle.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028956351" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-9.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028957090" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-8.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028957795" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-7.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028957797" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-5.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028958424" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-6.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028958424" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-3.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028959100" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-4.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028958427" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-2.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028959100" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-16.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028959104" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-17.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028959103" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-15.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028959813" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-13.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028960418" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-14.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028960418" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-11.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028960422" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-12.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028960422" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/expression/solver/sigma/class-use/FunctionSolver.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028960993" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-1.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028960994" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index-files/index-10.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028960994" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/expression/solver/sigma/package-tree.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028961786" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/expression/solver/sigma/package-use.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028961786" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/expression/solver/sigma/class-use/ExpressionSolver.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028961786" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/expression/solver/sigma/package-frame.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028961789" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/expression/solver/sigma/package-summary.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028961789" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/expression/solver/sigma/FunctionSolver.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028962385" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/expression/solver/sigma/ExpressionSolver.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028962387" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/SplashScreen.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028962387" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.menu.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028962990" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.string.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028962990" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.style.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028962990" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.layout.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028962991" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028962991" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.id.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028962991" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.color.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028963553" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.dimen.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028963553" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.drawable.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028963553" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/Main.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028964477" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/PlotGraph.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028964478" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/R.attr.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028964478" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/BuildConfig.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028964479" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/class-use/FunctionScreen.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028964479" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/SplashScreen.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028964479" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.style.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028965102" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.menu.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028966409" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.string.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028966403" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.layout.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028966409" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.id.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028967607" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028967607" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.drawable.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028968380" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.color.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028968983" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.dimen.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028968980" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/PlotGraph.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028969587" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/R.attr.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028969587" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/package-use.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028969587" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/package-summary.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028970405" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/package-tree.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028970405" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/Main.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028970407" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/package-frame.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028970407" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/BuildConfig.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028971152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/smapp/sigmacalculator/FunctionScreen.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028971149" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/class-use/ScaleGestureDetector.SimpleOnScaleGestureListener.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028971152" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/ScaleGestureDetector.SimpleOnScaleGestureListener.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028971793" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/class-use/RealScaleGestureDetector.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028971787" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/class-use/ScaleGestureDetector.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028971787" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/RealScaleGestureDetector.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028972409" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/ScaleGestureDetector.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028972405" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/package-use.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028973041" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/package-summary.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028973043" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/package-tree.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028973041" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/compatible/package-frame.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028973043" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/LineGraphView.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028973613" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/ValueDependentColor.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028973613" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/GraphViewStyle.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028973616" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/GraphViewSeries.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028973616" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/GraphViewDemo.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028974323" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/GraphViewSeries.GraphViewSeriesStyle.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028974323" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/GraphView.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028975019" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/GraphView.LegendAlign.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028975019" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/BarGraphView.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028975022" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/class-use/GraphView.GraphViewData.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028975022" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/package-use.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028975777" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/ValueDependentColor.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028975777" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/package-tree.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028975780" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/package-frame.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028976513" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/package-summary.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028976513" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/LineGraphView.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028976515" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/GraphViewStyle.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028977155" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/GraphViewSeries.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028977159" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/GraphViewDemo.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028978397" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/GraphViewSeries.GraphViewSeriesStyle.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028978394" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/GraphView.LegendAlign.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028978398" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/GraphView.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028979082" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/GraphView.GraphViewData.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028979818" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/overview-tree.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980374" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/com/jjoe64/graphview/BarGraphView.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028979820" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/index.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980374" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/overview-frame.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980374" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/overview-summary.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980375" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/help-doc.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980514" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/allclasses-noframe.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980554" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/constant-values.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980555" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/deprecated-list.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980555" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/bin/AndroidManifest.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980555" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/doc/allclasses-frame.html" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980555" ignored="false" />
+    <file path="$PROJECT_DIR$/../SigmaCalculator/AndroidManifest.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371028980897" ignored="false" />
+    <file path="/build.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371048140911" ignored="false" />
+    <file path="$USER_HOME$/Downloads/JakeWharton-ActionBarSherlock-e5c2d1c/library/gen/com/actionbarsherlock/R.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371051177664" ignored="false" />
+    <file path="/ManifestParsingTest.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371052668331" ignored="false" />
+    <file path="/ActionBarExample.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371102152976" ignored="false" />
+    <file path="$USER_HOME$/Downloads/JakeWharton-ActionBarSherlock-e5c2d1c/library/project.properties" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1371976950071" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/smapp/NewsReader/Manifest.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372163490846" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/smapp/NewsReader/BuildConfig.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372163490846" ignored="false" />
+    <file path="$PROJECT_DIR$/gen/com/smapp/NewsReader/R.java" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372167884478" ignored="false" />
+    <file path="/main_menu.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372166256822" ignored="false" />
+    <file path="/menumain.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372697565519" ignored="false" />
+    <file path="/refreshmenu.xml" changelist="31a7fa23-d1e3-4db0-be9c-e33896c41130" time="1372697844482" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="NewsReader" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ItemsArrayAdapter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ItemsArrayAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RSSFeed.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSFeed.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/MyActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="42" selection-start="2746" selection-end="2746" vertical-scroll-proportion="2.104369">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="49" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebPageActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/WebPageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="11" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list_selector.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable/list_selector.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="11" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="refreshmenu.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu/refreshmenu.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ListOfNewsChannels.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="46" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menumain.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu/menumain.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="7" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/NewsChannelListAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/newslayout.xml" />
+        <option value="$PROJECT_DIR$/build.xml" />
+        <option value="$USER_HOME$/Downloads/JakeWharton-ActionBarSherlock-e5c2d1c/library/test/com/actionbarsherlock/internal/ManifestParsingTest.java" />
+        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/ActionBarExample.java" />
+        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/RSSHandler.java" />
+        <option value="$PROJECT_DIR$/res/layout/list_row.xml" />
+        <option value="$PROJECT_DIR$/res/menu/main_menu.xml" />
+        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/WebPageActivity.java" />
+        <option value="$PROJECT_DIR$/res/menu/mainmenu.xml" />
+        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/MyActivity.java" />
+        <option value="$PROJECT_DIR$/res/drawable/listback_hover.xml" />
+        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java" />
+        <option value="$PROJECT_DIR$/res/menu/menumain.xml" />
+        <option value="$PROJECT_DIR$/res/menu/refreshmenu.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.smapp.NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="appearance" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+    <property name="AndroidLayoutSelectedEditor" value="text-editor" />
+    <property name="project.structure.side.proportion" value="0.31229237" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android.4.03" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Android Application.NewsReader">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="NewsReader" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NewsReader" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="NewsReader" />
+      <option name="ACTIVITY_CLASS" value="com.smapp.NewsReader.ListOfNewsChannels" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.NewsReader" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\mrwho\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31a7fa23-d1e3-4db0-be9c-e33896c41130" name="Default" comment="" />
+      <created>1370787814543</created>
+      <updated>1370787814543</updated>
+      <workItem from="1371977053332" duration="1438000" />
+      <workItem from="1371993235368" duration="2313000" />
+      <workItem from="1372138319557" duration="6245000" />
+      <workItem from="1372163482472" duration="15000" />
+      <workItem from="1372164720368" duration="5074000" />
+      <workItem from="1372388095373" duration="1754000" />
+      <workItem from="1372495665281" duration="2089000" />
+      <workItem from="1372695694122" duration="5506000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="50615000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33560476" sideWeight="0.33636364" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32027256" sideWeight="0.4909091" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3327674" sideWeight="0.6628788" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.4939394" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25454545" sideWeight="0.76831347" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23168655" sideWeight="0.4939394" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16818182" sideWeight="0.76831347" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5598485" sideWeight="0.76831347" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33611533" sideWeight="0.76831347" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/layout/list_row.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="38" selection-start="1211" selection-end="1211" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="17" selection-start="1358" selection-end="1358" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ItemsArrayAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="13" selection-start="448" selection-end="448" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSFeed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1178" selection-end="1178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/listback_hover.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="13" selection-start="120" selection-end="120" vertical-scroll-proportion="0.12" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/listback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/newschannel_row.xml">
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="46" selection-start="986" selection-end="986" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/WebPageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="11" selection-start="1086" selection-end="1086" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/refreshmenu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="279" selection-end="279" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/list_selector.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="11" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/menumain.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="49" selection-start="198" selection-end="198" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/MyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="42" selection-start="2746" selection-end="2746" vertical-scroll-proportion="2.104369">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android (NewsReader)|Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31229237" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31229237" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>NewsReader</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31229237" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31229237" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

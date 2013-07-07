@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:padding="5dip"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content"
+                android:background="@drawable/list_selector">
+
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/thumnailLinLay"
+            android:background="@drawable/listback"
+            android:layout_marginRight="5dip"
+            android:layout_alignParentLeft="true">
+
+        <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/ivIcons"
+                android:adjustViewBounds="false"
+                android:src="@drawable/icon"/>
+    </LinearLayout>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:id="@+id/tvTitle"
+            android:textColor="#061A4A"
+            android:layout_alignTop="@+id/thumnailLinLay"
+            android:layout_toRightOf="@+id/thumnailLinLay"
+            android:textStyle="bold"
+            android:textSize="15dip"
+            android:typeface="sans"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pubdate"
+            android:id="@+id/tvPubDate"
+            android:layout_toRightOf="@+id/thumnailLinLay"
+            android:textColor="#040404"
+            android:layout_below="@id/tvTitle"
+            android:textSize="10dip"
+            android:typeface="sans"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Link"
+            android:id="@+id/tvLink"
+            android:layout_toRightOf="@+id/thumnailLinLay"
+            android:textColor="#040404"
+            android:layout_below="@id/tvTitle"
+            android:visibility="invisible"
+            android:textSize="10dip"
+            android:typeface="sans"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Guid"
+            android:id="@+id/tvGuid"
+            android:layout_toRightOf="@+id/thumnailLinLay"
+            android:textColor="#040404"
+            android:layout_below="@id/tvTitle"
+            android:visibility="invisible"
+            android:textSize="10dip"
+            android:typeface="sans"/>
+
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Desc"
+            android:id="@+id/tvDesc"
+            android:textColor="#040404"
+            android:visibility="visible"
+            android:textSize="13dip"
+            android:typeface="sans"
+            android:layout_alignLeft="@+id/tvTitle"
+            android:layout_below="@+id/tvPubDate"/>
+    <!--WebView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Desc"
+                android:id="@+id/wvDesc"
+                android:textColor="#040404"
+                android:visibility="visible"
+                android:textSize="10dip"
+                android:typeface="sans" android:layout_alignLeft="@+id/tvTitle"
+                android:layout_below="@+id/tvPubDate"/ -->
+
+
+</RelativeLayout>

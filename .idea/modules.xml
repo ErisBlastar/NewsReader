@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/NewsReader.iml" filepath="$PROJECT_DIR$/NewsReader.iml" />
-      <module fileurl="file://$USER_HOME$/Downloads/JakeWharton-ActionBarSherlock-e5c2d1c/library/library.iml" filepath="$USER_HOME$/Downloads/JakeWharton-ActionBarSherlock-e5c2d1c/library/library.iml" />
     </modules>
   </component>
 </project>

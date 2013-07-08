@@ -1,10 +1,13 @@
 package com.smapp.NewsReader;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import com.actionbarsherlock.view.MenuInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
@@ -12,10 +15,10 @@ import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuItem;
+//import com.actionbarsherlock.app.SherlockActivity;
+//import com.actionbarsherlock.view.Menu;
+//import com.actionbarsherlock.view.MenuInflater;
+//import com.actionbarsherlock.view.MenuItem;
 
 import org.xml.sax.SAXException;
 
@@ -25,11 +28,11 @@ import java.util.List;
 
 import javax.xml.parsers.ParserConfigurationException;
 
-public class MyActivity extends SherlockActivity {
+public class MyActivity extends Activity {
     /**
      * Called when the activity is first created.
      */
-    ActionBar actionBar;
+    //com.actionbarsherlock.app.ActionBar actionBar;
     TextView tvTest;
     List<RSSFeed> rssFeed;
     RSSHandler handler;
@@ -48,7 +51,7 @@ public class MyActivity extends SherlockActivity {
         bGo = (Button) findViewById(R.id.bGo);
         itemListView = (ListView) findViewById(R.id.lvItems);
         handler = new RSSHandler();
-        actionBar = getSupportActionBar();
+      //  actionBar = getSupportActionBar();
         new connectToInternet().execute(url);
         itemListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -65,7 +68,8 @@ public class MyActivity extends SherlockActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getSupportMenuInflater();
+        //MenuInflater inflater = getSupportMenuInflater();
+        MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.refreshmenu,menu);
         return true;
     }

@@ -1,28 +1,32 @@
 package com.smapp.NewsReader;
 
+import android.app.ActionBar;
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockActivity;
-import com.actionbarsherlock.view.Menu;
-import com.actionbarsherlock.view.MenuInflater;
+//import com.actionbarsherlock.app.ActionBar;
+//import com.actionbarsherlock.app.SherlockActivity;
+//import com.actionbarsherlock.view.Menu;
+//import com.actionbarsherlock.view.MenuInflater;
 
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * Created with IntelliJ IDEA.
- * User: mrwho
+ * User: Samarth Sinha
  * Date: 6/11/13
  * Time: 6:54 PM
  * To change this template use File | Settings | File Templates.
  */
-public class ListOfNewsChannels extends SherlockActivity {
+public class ListOfNewsChannels extends Activity {
     List<NewsFeedLink> newsList = new ArrayList<NewsFeedLink>();
     NewsFeedLink nfl;
     ActionBar actionBar;
@@ -63,12 +67,13 @@ public class ListOfNewsChannels extends SherlockActivity {
                 startActivity(intent);
             }
         });
-        actionBar = getSupportActionBar();
+        actionBar = getActionBar();
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getSupportMenuInflater();
+        //MenuInflater inflater = getSupportMenuInflater();
+        MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menumain,menu);
         return true;
     }

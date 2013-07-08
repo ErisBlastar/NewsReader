@@ -1,12 +1,13 @@
 package com.smapp.NewsReader;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-import com.actionbarsherlock.app.ActionBar;
-import com.actionbarsherlock.app.SherlockActivity;
+//import com.actionbarsherlock.app.ActionBar;
+//import com.actionbarsherlock.app.SherlockActivity;
 
 /**
  * Created with IntelliJ IDEA.
@@ -15,8 +16,8 @@ import com.actionbarsherlock.app.SherlockActivity;
  * Time: 6:18 PM
  * To change this template use File | Settings | File Templates.
  */
-public class WebPageActivity extends SherlockActivity {
-    ActionBar actionbar;
+public class WebPageActivity extends Activity {
+   // ActionBar actionbar;
     String url;
     WebView wvMainLink;
 
@@ -30,7 +31,7 @@ public class WebPageActivity extends SherlockActivity {
         wvMainLink = (WebView) findViewById(R.id.wvMainLink);
         wvMainLink.setWebViewClient(new WebViewClient());
          wvMainLink.loadUrl(url);
-        actionbar = getSupportActionBar();
+        //actionbar = getSupportActionBar();
         dialog.dismiss();
 
     }

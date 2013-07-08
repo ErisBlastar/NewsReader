@@ -5,9 +5,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -17,12 +20,14 @@ import java.util.List;
  * Time: 11:42 AM
  * To change this template use File | Settings | File Templates.
  */
-public class ItemsArrayAdapter extends BaseAdapter {
+public class ItemsArrayAdapter extends BaseAdapter implements Filterable {
     private List<RSSItem> data;
+    private List<RSSItem> publishedData;
     private Context context;
 
     public ItemsArrayAdapter(List<RSSItem> dat, Context cont) {
         this.data = dat;
+        this.publishedData = dat;
         this.context = cont;
     }
 
@@ -71,5 +76,44 @@ public class ItemsArrayAdapter extends BaseAdapter {
         //wvDesc.loadData(item.getDescription(),"text/html","UTF-8");
         //wvDesc.(item.getDescription());
         return v;
+    }
+
+    @Override
+    public Filter getFilter() {
+        Filter filter = new Filter() {
+            @Override
+            protected FilterResults performFiltering(CharSequence constraint) {
+                FilterResults results = new FilterResults();
+                List<RSSItem> FilteredList = new ArrayList<RSSItem>();
+
+                if (data == null) {
+                    data = new ArrayList<RSSItem>(publishedData);
+                }
+                if (constraint == null || constraint.length() == 0) {
+                    results.count = data.size();
+                    results.values = data;
+                } else {
+                    constraint = constraint.toString().toLowerCase();
+                    for (int i = 0; i < data.size(); i++) {
+                        String d = data.get(i).getDescription();
+                        String t = data.get(i).getTitle();
+                        if (d.toLowerCase().contains(constraint.toString()) || t.toLowerCase().contains(constraint.toString())) {
+                            FilteredList.add(data.get(i));
+                        }
+
+                    }
+                    results.count = FilteredList.size();
+                    results.values = FilteredList;
+                }
+                return results;
+            }
+
+            @Override
+            protected void publishResults(CharSequence constraint, FilterResults results) {
+                data = (List<RSSItem>) results.values;
+                notifyDataSetChanged();
+            }
+        };
+        return filter;
     }
 }

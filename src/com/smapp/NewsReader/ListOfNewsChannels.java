@@ -1,23 +1,26 @@
 package com.smapp.NewsReader;
 
-import android.app.ActionBar;
-import android.app.Activity;
+//import android.app.ActionBar;
+
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
-//import com.actionbarsherlock.app.ActionBar;
-//import com.actionbarsherlock.app.SherlockActivity;
-//import com.actionbarsherlock.view.Menu;
-//import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
 
 import java.util.ArrayList;
 import java.util.List;
+
+//import android.view.Menu;
+//import android.view.MenuInflater;
 
 /**
  * Created with IntelliJ IDEA.
@@ -26,16 +29,20 @@ import java.util.List;
  * Time: 6:54 PM
  * To change this template use File | Settings | File Templates.
  */
-public class ListOfNewsChannels extends Activity {
+public class ListOfNewsChannels extends SherlockActivity {
     List<NewsFeedLink> newsList = new ArrayList<NewsFeedLink>();
     NewsFeedLink nfl;
     ActionBar actionBar;
+    ConnectionDetector cd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.newschannellsit);
+        cd = new ConnectionDetector(getApplicationContext());
         nfl = new NewsFeedLink("Reuters", "http://feeds.reuters.com/reuters/INtopNews");
+        newsList.add(nfl);
+        nfl = new NewsFeedLink("The Hindu - Opinion", "http://www.thehindu.com/opinion/?service=rss");
         newsList.add(nfl);
         nfl = new NewsFeedLink("The Hindu", "http://www.thehindu.com/news/?service=rss");
         newsList.add(nfl);
@@ -63,18 +70,38 @@ public class ListOfNewsChannels extends Activity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 String link = ((TextView) view.findViewById(R.id.tvNewsFeedLink)).getText().toString();
-                Intent intent = new Intent(ListOfNewsChannels.this, MyActivity.class).putExtra("URL", link);
-                startActivity(intent);
+                String header = ((TextView) view.findViewById(R.id.tvNameOfChannel)).getText().toString();
+                if (cd.hasActiveInternetConnection()) {
+                    Intent intent = new Intent(ListOfNewsChannels.this, MyActivity.class).putExtra("URL", link);
+                    intent.putExtra("NAME", header);
+                    startActivity(intent);
+                } else {
+
+                    Toast.makeText(getApplicationContext(), "Connect to internet first", Toast.LENGTH_LONG).show();
+                }
             }
         });
-        actionBar = getActionBar();
+        actionBar = getSupportActionBar();
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        //MenuInflater inflater = getSupportMenuInflater();
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menumain,menu);
+        MenuInflater inflater = getSupportMenuInflater();
+        inflater.inflate(R.menu.menumain, menu);
         return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menuExit:
+                finish();
+                System.exit(0);
+                break;
+            default:
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

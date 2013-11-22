@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:title="Exit"
-          android:id="@+id/menuExit"
-          android:icon="@android:drawable/ic_delete"
-          android:showAsAction="never"
-          ></item>
+    <item
+        android:title="Exit"
+        android:id="@+id/menuExit"
+        android:icon="@android:drawable/ic_delete"
+        android:showAsAction="never" />
+    <item
+        android:id="@+id/menuAdd"
+        android:icon="@android:drawable/ic_input_add"
+        android:title="Add"
+        android:showAsAction="ifRoom" />
 
 </menu>

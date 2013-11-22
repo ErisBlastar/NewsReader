@@ -1,48 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/etURL"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-        <EditText
-                android:id="@+id/etURL"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="80"
-                android:hint="RSS URL goes here"
-                android:visibility="gone"/>
+            android:layout_weight="80"
+            android:hint="RSS URL goes here"
+            android:visibility="gone" />
 
         <Button
-                android:id="@+id/bGo"
-                android:layout_height="wrap_content"
-                android:layout_width="wrap_content"
-                android:text="GO"
-                android:visibility="gone"
-                />
+            android:id="@+id/bGo"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="GO"
+            android:visibility="gone" />
 
         <EditText
-                android:id="@+id/etSearch"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="1dp"
-                android:hint="Search"
-                android:visibility="gone"
-                />
+            android:id="@+id/etSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:hint="Search"
+            android:visibility="gone" />
     </LinearLayout>
 
     <ListView
-            android:id="@+id/lvItems"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:divider="#b5b5b5"
-            android:dividerHeight="1dp"
-            />
+        android:id="@+id/lvItems"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#b5b5b5"
+        android:dividerHeight="1dp" />
     <!-- android:listSelector="@drawable/list_selector"/-->
 
 

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
 /*
 ** Copyright 2010, The Android Open Source Project
 **
@@ -16,9 +15,8 @@
 ** limitations under the License.
 */
 -->
-<com.actionbarsherlock.internal.widget.ActionBarContextView
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:visibility="gone"
-        style="?attr/actionModeStyle"/>
+<com.actionbarsherlock.internal.widget.ActionBarContextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    style="?attr/actionModeStyle" />

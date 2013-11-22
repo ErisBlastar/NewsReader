@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
  Copyright 2010, The Android Open Source Project
 
  Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,18 +16,18 @@
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
     <item>
         <rotate
-                android:drawable="@drawable/abs__spinner_48_outer_holo"
-                android:pivotX="50%"
-                android:pivotY="50%"
-                android:fromDegrees="0"
-                android:toDegrees="1080"/>
+            android:drawable="@drawable/abs__spinner_48_outer_holo"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:fromDegrees="0"
+            android:toDegrees="1080" />
     </item>
     <item>
         <rotate
-                android:drawable="@drawable/abs__spinner_48_inner_holo"
-                android:pivotX="50%"
-                android:pivotY="50%"
-                android:fromDegrees="720"
-                android:toDegrees="0"/>
+            android:drawable="@drawable/abs__spinner_48_inner_holo"
+            android:pivotX="50%"
+            android:pivotY="50%"
+            android:fromDegrees="720"
+            android:toDegrees="0" />
     </item>
 </layer-list>

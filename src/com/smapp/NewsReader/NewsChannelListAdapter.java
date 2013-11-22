@@ -8,6 +8,8 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.smapp.NewsReader.models.NewsFeedModel;
+
 import java.util.List;
 
 /**
@@ -18,11 +20,11 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class NewsChannelListAdapter extends BaseAdapter {
-    List<NewsFeedLink> data;
+    List<NewsFeedModel> data;
     Context context;
 
 
-    public NewsChannelListAdapter(List<NewsFeedLink> _data, Context _context) {
+    public NewsChannelListAdapter(List<NewsFeedModel> _data, Context _context) {
         this.data = _data;
         this.context = _context;
     }
@@ -52,9 +54,9 @@ public class NewsChannelListAdapter extends BaseAdapter {
         ImageView ivNewsChanIcon = (ImageView) v.findViewById(R.id.ivNewsChanIcon);
         TextView tvNameOfChannel = (TextView) v.findViewById(R.id.tvNameOfChannel);
         TextView tvNewsFeedLink = (TextView) v.findViewById(R.id.tvNewsFeedLink);
-        NewsFeedLink nfl = data.get(i);
-        String name = nfl.getChannelName();
-        String link = nfl.getFeedLink();
+        NewsFeedModel nfl = data.get(i);
+        String name = nfl.getTitle();
+        String link = nfl.getUrl();
         tvNameOfChannel.setText(name);
         tvNewsFeedLink.setText(link);
         if (name.toLowerCase().contains("ndtv")) {

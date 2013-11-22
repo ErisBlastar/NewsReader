@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="RSS Feed URL"
+        android:id="@+id/etRssUrl"
+        android:padding="10dip"
+        android:layout_margin="5dip" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Title of the News Feed"
+        android:id="@+id/etTitleFeed"
+        android:padding="10dip"
+        android:layout_margin="5dip" />
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Category of the news feed eg. Sports.."
+        android:id="@+id/etCategoryFeed"
+        android:padding="10dip"
+        android:layout_margin="5dip" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:padding="10dip"
+        android:layout_marginTop="10dip"
+        android:text="Add Feed"
+        android:id="@+id/btnAdd" />
+
+
+</LinearLayout>

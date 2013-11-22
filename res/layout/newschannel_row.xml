@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="fill_parent"
-                android:padding="5dip"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content"
-                android:background="@drawable/list_selector">
+    android:layout_width="fill_parent"
+    android:padding="5dip"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector">
 
 
     <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/llNewsIcon"
-            android:background="@drawable/listback"
-            android:layout_marginRight="5dip"
-            android:layout_alignParentLeft="true">
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/llNewsIcon"
+        android:background="@drawable/listback"
+        android:layout_marginRight="5dip"
+        android:layout_alignParentLeft="true">
 
         <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:id="@+id/ivNewsChanIcon"
-                android:adjustViewBounds="false"
-                android:src="@drawable/ndtv"/>
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/ivNewsChanIcon"
+            android:adjustViewBounds="false"
+            android:src="@drawable/ndtv" />
     </LinearLayout>
 
     <TextView
-            android:id="@+id/tvNameOfChannel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="NDTV-Top Stories"
-            android:textColor="#040404"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            android:layout_toRightOf="@+id/llNewsIcon"
-            android:layout_centerVertical="true"/>
+        android:id="@+id/tvNameOfChannel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NDTV-Top Stories"
+        android:textColor="#040404"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/llNewsIcon"
+        android:layout_centerVertical="true" />
 
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Link"
-            android:id="@+id/tvNewsFeedLink"
-            android:layout_toRightOf="@+id/llNewsIcon"
-            android:textColor="#040404"
-            android:layout_below="@id/tvNameOfChannel"
-            android:textSize="11dip"
-            android:visibility="gone"
-            android:typeface="sans"/>
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Link"
+        android:id="@+id/tvNewsFeedLink"
+        android:layout_toRightOf="@+id/llNewsIcon"
+        android:textColor="#040404"
+        android:layout_below="@id/tvNameOfChannel"
+        android:textSize="11dip"
+        android:visibility="gone"
+        android:typeface="sans" />
 
 </RelativeLayout>

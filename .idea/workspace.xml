@@ -60,122 +60,11 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31a7fa23-d1e3-4db0-be9c-e33896c41130" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/AddFeedsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/NewsFeedDBHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/NewsFeedDataSourceUtil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/models/NewsFeedModel.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/addfeedurl.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/ActionBarSherlock.iml" afterPath="$PROJECT_DIR$/ActionBarSherlock/ActionBarSherlock.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/AndroidManifest.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/gen/com/actionbarsherlock/BuildConfig.java" afterPath="$PROJECT_DIR$/ActionBarSherlock/gen/com/actionbarsherlock/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/smapp/NewsReader/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/smapp/NewsReader/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smapp/NewsReader/ConnectionDetector.java" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/ConnectionDetector.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smapp/NewsReader/NewsChannelListAdapter.java" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/NewsChannelListAdapter.java" />
+    <list default="true" id="31a7fa23-d1e3-4db0-be9c-e33896c41130" name="Default" comment="#3 Merged Action BarSherlock and added Internet Connectivity">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/EncryptionUtil.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v41.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/commons_codec_1_8.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsReader.iml" afterPath="$PROJECT_DIR$/NewsReader.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_bar_home.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_bar_home.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_bar_tab.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_bar_tab.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_bar_tab_bar_view.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_bar_tab_bar_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_bar_title_item.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_bar_title_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_menu_item_layout.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_menu_layout.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_menu_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_mode_bar.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_mode_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout-large/abs__action_mode_close_item.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout-large/abs__action_mode_close_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__activated_background_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__activated_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__activated_background_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__activated_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__activity_chooser_view.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__activity_chooser_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__activity_chooser_view_list_item.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__activity_chooser_view_list_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__attrs.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__attrs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__bools.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__bools.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-sw600dp/abs__bools.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-sw600dp/abs__bools.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-w480dp/abs__bools.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-w480dp/abs__bools.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__btn_cab_done_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__btn_cab_done_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__btn_cab_done_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__btn_cab_done_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__colors.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__config.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-w480dp/abs__config.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-w480dp/abs__config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-land/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-land/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-large-hdpi-1024x600/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-large-hdpi-1024x600/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-large-land-hdpi-1024x600/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-large-land-hdpi-1024x600/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-large-land-mdpi-1024x600/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-large-land-mdpi-1024x600/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-large-mdpi-1024x600/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-large-mdpi-1024x600/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-sw600dp/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-sw600dp/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-w360dp/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-w360dp/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-w500dp/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-w500dp/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-w600dp/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-w600dp/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-xlarge/abs__dimens.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-xlarge/abs__dimens.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__ic_clear.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__ic_clear.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__ic_clear_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__ic_clear_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__ic_menu_moreoverflow_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__ic_menu_moreoverflow_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__ic_menu_moreoverflow_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__ids.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__ids.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__item_background_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__item_background_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__item_background_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__item_background_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__list_menu_item_checkbox.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__list_menu_item_checkbox.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__list_menu_item_icon.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__list_menu_item_icon.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__list_menu_item_radio.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__list_menu_item_radio.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__list_selector_background_transition_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__list_selector_background_transition_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__list_selector_background_transition_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__list_selector_background_transition_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__list_selector_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__list_selector_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__list_selector_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__list_selector_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__popup_menu_item_layout.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__popup_menu_item_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/color/abs__primary_text_disable_only_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/color/abs__primary_text_disable_only_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/color/abs__primary_text_disable_only_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/color/abs__primary_text_disable_only_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/color/abs__primary_text_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/color/abs__primary_text_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/color/abs__primary_text_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/color/abs__primary_text_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__progress_horizontal_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__progress_horizontal_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__progress_horizontal_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__progress_horizontal_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable-v11/abs__progress_medium_holo.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable-v11/abs__progress_medium_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout-xlarge/abs__screen_action_bar.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout-xlarge/abs__screen_action_bar.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout-xlarge/abs__screen_action_bar_overlay.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout-xlarge/abs__screen_action_bar_overlay.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__screen_simple.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__screen_simple.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__screen_simple_overlay_action_mode.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__screen_simple_overlay_action_mode.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__search_dropdown_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__search_dropdown_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__search_dropdown_item_icons_2line.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__search_dropdown_item_icons_2line.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__search_dropdown_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__search_dropdown_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__search_view.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__search_view.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__simple_dropdown_hint.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/abs__simple_dropdown_hint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__spinner_ab_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__spinner_ab_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__spinner_ab_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__spinner_ab_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__strings.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__styles.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-v14/abs__styles.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-v14/abs__styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__tab_indicator_ab_holo.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__tab_indicator_ab_holo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__textfield_searchview_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__textfield_searchview_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__textfield_searchview_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__textfield_searchview_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__textfield_searchview_right_holo_dark.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__textfield_searchview_right_holo_dark.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__textfield_searchview_right_holo_light.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/drawable/abs__textfield_searchview_right_holo_light.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__themes.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values/abs__themes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/values-v14/abs__themes.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/values-v14/abs__themes.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.xml" afterPath="$PROJECT_DIR$/build.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/lint.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/lint.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/list_row.xml" afterPath="$PROJECT_DIR$/res/layout/list_row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/list_selector.xml" afterPath="$PROJECT_DIR$/res/drawable/list_selector.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/listback.xml" afterPath="$PROJECT_DIR$/res/drawable/listback.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable/listback_hover.xml" afterPath="$PROJECT_DIR$/res/drawable/listback_hover.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/menumain.xml" afterPath="$PROJECT_DIR$/res/menu/menumain.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/newschannel_row.xml" afterPath="$PROJECT_DIR$/res/layout/newschannel_row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/newschannellsit.xml" afterPath="$PROJECT_DIR$/res/layout/newschannellsit.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/newslayout.xml" afterPath="$PROJECT_DIR$/res/layout/newslayout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/pom.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/refreshmenu.xml" afterPath="$PROJECT_DIR$/res/menu/refreshmenu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout-v14/sherlock_spinner_dropdown_item.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout-v14/sherlock_spinner_dropdown_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/res/layout-v14/sherlock_spinner_item.xml" afterPath="$PROJECT_DIR$/ActionBarSherlock/res/layout-v14/sherlock_spinner_item.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/webpageview.xml" afterPath="$PROJECT_DIR$/res/layout/webpageview.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NewsReader.iws" />
@@ -240,43 +129,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NewsFeedDataSourceUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/NewsFeedDataSourceUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="11" selection-start="2352" selection-end="2352" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1395">
-              <folding>
-                <element signature="e#2437#2452#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewsFeedDBHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/NewsFeedDBHelper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="46" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="765">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConnectionDetector.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ConnectionDetector.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="34" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-5.28" vertical-offset="588" max-vertical-offset="1440">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ListOfNewsChannels.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="41" selection-start="2198" selection-end="2232" vertical-scroll-proportion="2.1536524" vertical-offset="0" max-vertical-offset="1800">
+            <state line="92" column="13" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.48341233" vertical-offset="1131" max-vertical-offset="1800">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1116#1131#0" expanded="true" />
@@ -285,58 +141,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsChannelListAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/NewsChannelListAdapter.java">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="34" selection-start="1884" selection-end="1884" vertical-scroll-proportion="0.0" vertical-offset="471" max-vertical-offset="1140">
+            <state line="14" column="36" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="705">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsFeedModel.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/models/NewsFeedModel.java">
+      <file leaf-file-name="menumain.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/menu/menumain.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="24" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="945">
-              <folding>
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#665#666#0" expanded="true" />
-                <element signature="e#691#692#0" expanded="true" />
-                <element signature="e#729#730#0" expanded="true" />
-                <element signature="e#759#760#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-                <element signature="e#930#931#0" expanded="true" />
-                <element signature="e#961#962#0" expanded="true" />
-                <element signature="e#1009#1010#0" expanded="true" />
-                <element signature="e#1049#1050#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddFeedsActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/AddFeedsActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="33" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="960">
-              <folding>
-                <element signature="e#1073#2102#0" expanded="true" />
-                <element signature="e#2091#2092#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EncryptionUtil.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/EncryptionUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="78" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.0" vertical-offset="973" max-vertical-offset="1380">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="7" column="34" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="300">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -372,15 +190,15 @@
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/DatabaseStruct.java" />
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/GenerateHashUtil.java" />
         <option value="$PROJECT_DIR$/res/menu/menumain.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/res/layout/addfeedurl.xml" />
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/models/NewsFeedModel.java" />
-        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/EncryptionUtil.java" />
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/NewsFeedDBHelper.java" />
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/NewsFeedDataSourceUtil.java" />
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/NewsChannelListAdapter.java" />
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/AddFeedsActivity.java" />
+        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/EncryptionUtil.java" />
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -428,6 +246,7 @@
     <ignored-problems>
       <problem id="invalid-module-dependency(module:NewsReader,ActionBarSherlock)" />
       <problem id="library-invalid-classes-path(library:project:android-support-v41)" />
+      <problem id="library-invalid-classes-path(library:project:commons-codec-1.8)" />
       <problem id="unused-library(library:project:android-support-v4)" />
       <problem id="unused-library(library:project:android-support-v41)" />
       <problem id="unused-library(library:project:android-support-v42)" />
@@ -446,16 +265,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NewsReader" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -478,13 +287,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="menu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gen" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
@@ -744,13 +627,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="817" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="817" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.168042" sideWeight="0.76831347" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761088" sideWeight="0.49928263" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55963993" sideWeight="0.76831347" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27658045" sideWeight="0.70731705" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -764,7 +646,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2543136" sideWeight="0.28627968" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25107604" sideWeight="0.70731705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25107604" sideWeight="0.70731705" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22955523" sideWeight="0.7883788" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -772,9 +654,39 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27658045" sideWeight="0.70731705" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.168042" sideWeight="0.76831347" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761088" sideWeight="0.49928263" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6140603" sideWeight="0.19081779" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761088" sideWeight="0.49928263" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24318507" sideWeight="0.31133428" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32281205" sideWeight="0.5939742" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25107604" sideWeight="0.70731705" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22955523" sideWeight="0.7883788" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55963993" sideWeight="0.76831347" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998565" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27658045" sideWeight="0.70731705" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2543136" sideWeight="0.28627968" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31707317" sideWeight="0.48995695" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3543759" sideWeight="0.8091822" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2543136" sideWeight="0.28627968" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6712095" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -799,110 +711,39 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/menu/refreshmenu.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/NewsFeedDBHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="110" selection-end="278" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state line="15" column="46" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="765">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/sdk/platforms/android-19/data/res/drawable-ldpi/ic_delete.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/menu/menumain.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/NewsFeedDataSourceUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="302" selection-end="302" vertical-scroll-proportion="0.22875817" vertical-offset="0" max-vertical-offset="459">
+        <state line="65" column="11" selection-start="2352" selection-end="2352" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1395">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/AddFeedsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="77" selection-start="405" selection-end="405" vertical-scroll-proportion="-0.30718955" vertical-offset="261" max-vertical-offset="720">
-          <folding>
-            <element signature="e#731#749#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/addfeedurl.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="650" selection-end="650" vertical-scroll-proportion="-1.5555556" vertical-offset="198" max-vertical-offset="630">
+        <state line="50" column="33" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="960">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/MyActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/models/NewsFeedModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="49" selection-start="3834" selection-end="3834" vertical-scroll-proportion="0.0" vertical-offset="1699" max-vertical-offset="2145">
+        <state line="21" column="58" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="735">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/EncryptionUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="78" selection-start="1990" selection-end="1990" vertical-scroll-proportion="0.0" vertical-offset="973" max-vertical-offset="1380">
+        <state line="9" column="18" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="690">
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ConnectionDetector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="34" selection-start="1459" selection-end="1459" vertical-scroll-proportion="-5.28" vertical-offset="588" max-vertical-offset="1440">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ActionBarSherlock/src/com/actionbarsherlock/ActionBarSherlock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="23" selection-start="3396" selection-end="3396" vertical-scroll-proportion="1.9312797" vertical-offset="325" max-vertical-offset="12180">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ActionBarSherlock/src/com/actionbarsherlock/app/SherlockActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="19" selection-start="5949" selection-end="5949" vertical-scroll-proportion="6.381418" vertical-offset="0" max-vertical-offset="4020">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/NewsFeedDBHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="46" selection-start="487" selection-end="487" vertical-scroll-proportion="0.0" vertical-offset="111" max-vertical-offset="765">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/models/NewsFeedModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="24" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" vertical-offset="523" max-vertical-offset="945">
-          <folding>
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#691#692#0" expanded="true" />
-            <element signature="e#729#730#0" expanded="true" />
-            <element signature="e#759#760#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#861#862#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
-            <element signature="e#930#931#0" expanded="true" />
-            <element signature="e#961#962#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1049#1050#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -914,28 +755,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/NewsFeedDataSourceUtil.java">
+    <entry file="file://$PROJECT_DIR$/res/menu/menumain.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="11" selection-start="2352" selection-end="2352" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1395">
-          <folding>
-            <element signature="e#2437#2452#0" expanded="true" />
-          </folding>
+        <state line="7" column="34" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/AddFeedsActivity.java">
+    <entry file="file://$PROJECT_DIR$/gen/com/smapp/NewsReader/Manifest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="33" selection-start="2077" selection-end="2077" vertical-scroll-proportion="0.0" vertical-offset="508" max-vertical-offset="960">
-          <folding>
-            <element signature="e#1073#2102#0" expanded="true" />
-            <element signature="e#2091#2092#0" expanded="true" />
-          </folding>
+        <state line="5" column="19" selection-start="178" selection-end="178" vertical-scroll-proportion="0.16741072" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/smapp/NewsReader/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="19" selection-start="181" selection-end="181" vertical-scroll-proportion="0.16741072" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ant.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.3448277" vertical-offset="1020" max-vertical-offset="1455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/com/smapp/NewsReader/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="1" selection-start="176" selection-end="176" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="36" selection-start="685" selection-end="685" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="705">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="41" selection-start="2198" selection-end="2232" vertical-scroll-proportion="2.1536524" vertical-offset="0" max-vertical-offset="1800">
+        <state line="92" column="13" selection-start="4235" selection-end="4235" vertical-scroll-proportion="0.48341233" vertical-offset="1131" max-vertical-offset="1800">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1116#1131#0" expanded="true" />
@@ -960,7 +845,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Android (ActionBarSherlock)|Android</last-edited>
+          <last-edited>Detection</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -983,7 +868,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>Android API 19 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -995,7 +880,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ActionBarSherlock</last-edited>
+          <last-edited>Android|ActionBarSherlock</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

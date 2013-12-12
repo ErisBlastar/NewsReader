@@ -10,6 +10,7 @@
         android:layout_width="fill_parent"
         android:hint="RSS Feed URL"
         android:id="@+id/etRssUrl"
+        android:inputType="textUri"
         android:padding="10dip"
         android:layout_margin="5dip" />
 

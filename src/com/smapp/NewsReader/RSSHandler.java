@@ -49,15 +49,19 @@ public class RSSHandler extends DefaultHandler {
      * To be called inside Async Task
      *
      * @param url
+     * description: rss feed url
      * @return
+     * description: List of rss feed
      */
     public List<RSSFeed> processWithParsing(String url) throws ParserConfigurationException, SAXException, IOException {
+        Log.d("TESTING FOR FIRST POST", url);
         SAXParserFactory spf = SAXParserFactory.newInstance();
         SAXParser sp = spf.newSAXParser();
         XMLReader xmlIn = sp.getXMLReader();
         xmlIn.setContentHandler(this);
         URL xmlUrl = new URL(url);
         URLConnection xmlConn = xmlUrl.openConnection();
+        xmlConn.setRequestProperty("User-agent", "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_3) AppleWebKit/534.55.3 (KHTML, like Gecko) Version/5.1.3 Safari/534.53.10");
         InputStreamReader xmlStream = new InputStreamReader(xmlConn.getInputStream());
         BufferedReader xmlBuf = new BufferedReader(xmlStream);
         xmlIn.parse(new InputSource(xmlBuf));
@@ -69,6 +73,8 @@ public class RSSHandler extends DefaultHandler {
     @Override
     public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
         temp = "";
+
+        Log.d("TAGS: ", qName);
         if (qName.equalsIgnoreCase("channel")) {
             feeds = new RSSFeed();
             inChannel = true;

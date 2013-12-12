@@ -32,12 +32,9 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 public class ListOfNewsChannels extends SherlockActivity {
-    List<NewsFeedLink> newsList = new ArrayList<NewsFeedLink>();
-    NewsFeedLink nfl;
-    NewsFeedModel nfm;
+    //    List<NewsFeedLink> newsList = new ArrayList<NewsFeedLink>();
     List<NewsFeedModel> newsModelList = new ArrayList<NewsFeedModel>();
     ActionBar actionBar;
-    ConnectionDetector cd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +66,6 @@ public class ListOfNewsChannels extends SherlockActivity {
 //        newsList.add(nfl);
 //        nfl = new NewsFeedLink("Times of India - Gurgaon", "http://timesofindia.indiatimes.com/rssfeeds/6547154.cms");
 //        newsList.add(nfl);
-
         ListView lvNewsChaList = (ListView) findViewById(R.id.lvNewsChannel);
         lvNewsChaList.setAdapter(new NewsChannelListAdapter(newsModelList, getApplicationContext()));
         lvNewsChaList.setOnItemClickListener(new AdapterView.OnItemClickListener() {

@@ -17,8 +17,8 @@
         android:layout_alignParentLeft="true">
 
         <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
             android:id="@+id/ivIcons"
             android:adjustViewBounds="false"
             android:src="@drawable/icon"

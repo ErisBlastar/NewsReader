@@ -64,15 +64,7 @@
     <option name="TOOL_WINDOW_LOG_LEVEL" value="DEBUG" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31a7fa23-d1e3-4db0-be9c-e33896c41130" name="Default" comment="#6 some fixes">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionBarSherlock/ActionBarSherlock.iml" afterPath="$PROJECT_DIR$/ActionBarSherlock/ActionBarSherlock.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NewsReader.iml" afterPath="$PROJECT_DIR$/NewsReader.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smapp/NewsReader/RSSHandler.java" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/RSSHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/addfeedurl.xml" afterPath="$PROJECT_DIR$/res/layout/addfeedurl.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/list_row.xml" afterPath="$PROJECT_DIR$/res/layout/list_row.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/newslayout.xml" afterPath="$PROJECT_DIR$/res/layout/newslayout.xml" />
+    <list default="true" id="31a7fa23-d1e3-4db0-be9c-e33896c41130" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NewsReader.iws" />
@@ -671,7 +663,11 @@
       <created>1385146021093</created>
       <updated>1385146021093</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="#6 some fixes">
+      <created>1386881260461</created>
+      <updated>1386881260461</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">

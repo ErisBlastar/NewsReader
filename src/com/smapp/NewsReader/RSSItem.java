@@ -1,5 +1,7 @@
 package com.smapp.NewsReader;
 
+import com.smapp.NewsReader.utilities.DateConverterUtil;
+
 /**
  * Created with IntelliJ IDEA.
  * User: mrwho
@@ -50,7 +52,8 @@ public class RSSItem {
     }
 
     public void setPubdate(String pubdate) {
-        this.pubdate = pubdate;
+        int time = (int) (DateConverterUtil.dateConverter(pubdate) / 1000);
+        this.pubdate = DateConverterUtil.timeAgo(time) + " Ago";
     }
 
     public void setGuid(String guid) {

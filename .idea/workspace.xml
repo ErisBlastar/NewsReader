@@ -65,6 +65,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31a7fa23-d1e3-4db0-be9c-e33896c41130" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/DateConverterUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/smapp/NewsReader/RSSItem.java" afterPath="$PROJECT_DIR$/src/com/smapp/NewsReader/RSSItem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NewsReader.iws" />
@@ -129,23 +131,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="list_row.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/list_row.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="RSSHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="36" selection-start="886" selection-end="886" vertical-scroll-proportion="8.333333" vertical-offset="585" max-vertical-offset="1575">
+            <state line="53" column="36" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0" vertical-offset="1519" max-vertical-offset="2175">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RSSHandler.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSHandler.java">
+      <file leaf-file-name="DateConverterUtil.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/DateConverterUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="36" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.5862069" vertical-offset="225" max-vertical-offset="2175">
-              <folding />
+            <state line="32" column="36" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1170">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -153,7 +154,7 @@
       <file leaf-file-name="WebPageActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/WebPageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="0" selection-start="1032" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="870">
+            <state line="34" column="0" selection-start="1032" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="201" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -162,7 +163,7 @@
       <file leaf-file-name="ListOfNewsChannels.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="35" selection-start="3979" selection-end="3979" vertical-scroll-proportion="0.0" vertical-offset="766" max-vertical-offset="1485">
+            <state line="80" column="35" selection-start="3979" selection-end="3979" vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1485">
               <folding />
             </state>
           </provider>
@@ -171,37 +172,16 @@
       <file leaf-file-name="NewsFeedLink.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/NewsFeedLink.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="20" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="600">
+            <state line="11" column="20" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RSSItem.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="RSSItem.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="1050">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RSSFeed.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSFeed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="20" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="225" max-vertical-offset="1260">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="addfeedurl.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/addfeedurl.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="4" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="705">
+            <state line="55" column="58" selection-start="1130" selection-end="1130" vertical-scroll-proportion="1.3448275" vertical-offset="0" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -270,6 +250,8 @@
         <option value="$PROJECT_DIR$/res/layout/list_row.xml" />
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java" />
         <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/RSSHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/DateConverterUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/smapp/NewsReader/RSSItem.java" />
       </list>
     </option>
   </component>
@@ -386,6 +368,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utilities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NewsReader" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="res" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -445,6 +449,22 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="141" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="145" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="939" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="141" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="145" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="939" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager" selected="Android Application.NewsReader">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -667,7 +687,11 @@
       <created>1386881260461</created>
       <updated>1386881260461</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="#6 some fixes&#10;">
+      <created>1386881368611</created>
+      <updated>1386881368611</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -698,7 +722,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.168042" sideWeight="0.76831347" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761088" sideWeight="0.49928263" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711622" sideWeight="0.49928263" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55963993" sideWeight="0.76831347" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33045977" sideWeight="0.70731705" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -707,10 +731,10 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6140603" sideWeight="0.19081779" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2543136" sideWeight="0.28627968" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761088" sideWeight="0.49928263" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32711622" sideWeight="0.49928263" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24318507" sideWeight="0.31133428" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31707317" sideWeight="0.48995695" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33572453" sideWeight="0.8091822" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31707317" sideWeight="0.48995695" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33572453" sideWeight="0.8091822" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32281205" sideWeight="0.5939742" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2543136" sideWeight="0.28627968" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.6712095" order="3" side_tool="false" content_ui="tabs" />
@@ -770,11 +794,13 @@
       <TodoPanelSettings />
     </option>
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="false" />
     <MESSAGE value="#2 Doesn't support ActionBar on android &lt; v11 still have to implement ActionBarSherlock" />
     <MESSAGE value="#3 Merged Action BarSherlock and added Internet Connectivity" />
     <MESSAGE value="#5 missing files added" />
     <MESSAGE value="#6 some fixes" />
-    <option name="LAST_COMMIT_MESSAGE" value="#6 some fixes" />
+    <MESSAGE value="#6 some fixes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="#6 some fixes&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -971,20 +997,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/NewsFeedLink.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="20" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="197" selection-end="197" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="750">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/models/NewsFeedModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="13" selection-start="149" selection-end="149" vertical-scroll-proportion="0.20874752" vertical-offset="0" max-vertical-offset="750" />
@@ -1010,26 +1022,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSFeed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" vertical-offset="352" max-vertical-offset="960">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/res/layout/addfeedurl.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="4" selection-start="517" selection-end="517" vertical-scroll-proportion="0.0" vertical-offset="240" max-vertical-offset="705">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/WebPageActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="1032" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="870">
           <folding />
         </state>
       </provider>
@@ -1044,6 +1042,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="36" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.0" vertical-offset="1519" max-vertical-offset="2175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/WebPageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="0" selection-start="1032" selection-end="1121" vertical-scroll-proportion="0.0" vertical-offset="433" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/ListOfNewsChannels.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="35" selection-start="3979" selection-end="3979" vertical-scroll-proportion="0.0" vertical-offset="766" max-vertical-offset="1485">
@@ -1051,9 +1063,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSHandler.java">
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSFeed.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="36" selection-start="1443" selection-end="1443" vertical-scroll-proportion="0.5862069" vertical-offset="225" max-vertical-offset="2175">
+        <state line="15" column="20" selection-start="310" selection-end="310" vertical-scroll-proportion="-0.27586207" vertical-offset="345" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/NewsFeedLink.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/utilities/DateConverterUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="36" selection-start="992" selection-end="992" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="1170">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/smapp/NewsReader/RSSItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="58" selection-start="1130" selection-end="1130" vertical-scroll-proportion="1.3448275" vertical-offset="0" max-vertical-offset="825">
           <folding />
         </state>
       </provider>
